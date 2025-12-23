@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | GOODADDY GROUP - Our Media Work in Rwanda</title>
+    <meta name="description" content="View our portfolio of video production, advertising campaigns, events coverage, and brand promotions for clients across Rwanda.">
+    
+    <!-- Same head content -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Same header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">GOODADDY</span>
+                    <span class="logo-subtext">GROUP</span>
+                </a>
+                
+                <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="testimonials.html">Reviews</a></li>
+                    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Floating buttons -->
+    <a href="https://wa.me/250782328126" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+250782328126" class="floating-call" aria-label="Call us">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <!-- Portfolio Hero -->
+    <section class="page-hero portfolio-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">Our Portfolio</h1>
+                <p class="page-subtitle">Showcasing our best work in media production, advertising, and events</p>
+                <div class="hero-breadcrumb">
+                    <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Portfolio</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-hero-overlay"></div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="video">Video Production</button>
+                <button class="filter-btn" data-filter="audio">Audio Production</button>
+                <button class="filter-btn" data-filter="events">Events Coverage</button>
+                <button class="filter-btn" data-filter="ads">Advertising Campaigns</button>
+                <button class="filter-btn" data-filter="brands">Brand Promotion</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid-section">
+        <div class="container">
+            <div class="portfolio-grid" id="portfolio-grid">
+                
+                <!-- Video Production Items -->
+                <div class="portfolio-item video" data-category="video">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-play-circle"></i>
+                                <span>Commercial Video</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view" data-lightbox="video-1">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Corporate Brand Video</h3>
+                            <p class="portfolio-category">Video Production</p>
+                            <p class="portfolio-desc">Brand storytelling video for a leading Rwandan corporation</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item video" data-category="video">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-video"></i>
+                                <span>Product Launch</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Tech Product Launch</h3>
+                            <p class="portfolio-category">Video Production</p>
+                            <p class="portfolio-desc">Launch video for a new technology product in Rwanda</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Audio Production Items -->
+                <div class="portfolio-item audio" data-category="audio">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-podcast"></i>
+                                <span>Podcast</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Business Podcast Series</h3>
+                            <p class="portfolio-category">Audio Production</p>
+                            <p class="portfolio-desc">Full production of 12-episode business podcast</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item audio" data-category="audio">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-music"></i>
+                                <span>Radio Ad</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Radio Advertising Campaign</h3>
+                            <p class="portfolio-category">Audio Production</p>
+                            <p class="portfolio-desc">Series of radio commercials for retail brand</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Events Coverage Items -->
+                <div class="portfolio-item events" data-category="events">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Corporate Event</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Annual Corporate Conference</h3>
+                            <p class="portfolio-category">Events Coverage</p>
+                            <p class="portfolio-desc">Full coverage of 500-person corporate event</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item events" data-category="events">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-glass-cheers"></i>
+                                <span>Product Launch</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Product Launch Event</h3>
+                            <p class="portfolio-category">Events Coverage</p>
+                            <p class="portfolio-desc">Complete event management for new product launch</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Advertising Campaigns -->
+                <div class="portfolio-item ads" data-category="ads">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-ad"></i>
+                                <span>Digital Campaign</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Digital Marketing Campaign</h3>
+                            <p class="portfolio-category">Advertising</p>
+                            <p class="portfolio-desc">Social media campaign reaching 100K+ people</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ads" data-category="ads">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-bullhorn"></i>
+                                <span>TV Commercial</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>National TV Campaign</h3>
+                            <p class="portfolio-category">Advertising</p>
+                            <p class="portfolio-desc">TV commercial campaign for national brand</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Brand Promotion -->
+                <div class="portfolio-item brands" data-category="brands">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-star"></i>
+                                <span>Brand Strategy</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Brand Identity Development</h3>
+                            <p class="portfolio-category">Brand Promotion</p>
+                            <p class="portfolio-desc">Complete brand strategy for startup company</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item brands" data-category="brands">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-trademark"></i>
+                                <span>Product Promotion</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Product Launch Campaign</h3>
+                            <p class="portfolio-category">Brand Promotion</p>
+                            <p class="portfolio-desc">360° promotion campaign for new product</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional items -->
+                <div class="portfolio-item video events" data-category="video events">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-film"></i>
+                                <span>Event Video</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Conference Highlights Video</h3>
+                            <p class="portfolio-category">Video & Events</p>
+                            <p class="portfolio-desc">Highlight reel from major industry conference</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ads brands" data-category="ads brands">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Campaign Results</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Integrated Marketing Campaign</h3>
+                            <p class="portfolio-category">Advertising & Branding</p>
+                            <p class="portfolio-desc">Multi-channel campaign with 200% ROI</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item video audio" data-category="video audio">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-tv"></i>
+                                <span>TV Production</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>TV Program Production</h3>
+                            <p class="portfolio-category">Video & Audio</p>
+                            <p class="portfolio-desc">Full production of 13-episode TV program</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item events brands" data-category="events brands">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder portfolio-img">
+                                <i class="fas fa-users"></i>
+                                <span>Brand Event</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-view">
+                                    <i class="fas fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Brand Activation Event</h3>
+                            <p class="portfolio-category">Events & Branding</p>
+                            <p class="portfolio-desc">Interactive brand experience event</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="portfolio-load-more">
+                <button id="load-more" class="btn btn-outline">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Showcase -->
+    <section class="clients-showcase">
+        <div class="container">
+            <h2 class="section-title text-center">Some of Our Clients</h2>
+            <p class="section-subtitle text-center">We've had the privilege of working with leading brands across Rwanda</p>
+            
+            <div class="clients-grid">
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-building"></i>
+                        <span>Corporate Client</span>
+                    </div>
+                </div>
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-store"></i>
+                        <span>Retail Brand</span>
+                    </div>
+                </div>
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-hotel"></i>
+                        <span>Hospitality</span>
+                    </div>
+                </div>
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-bank"></i>
+                        <span>Financial</span>
+                    </div>
+                </div>
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </div>
+                </div>
+                <div class="client-logo">
+                    <div class="logo-placeholder">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Healthcare</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio CTA -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Like What You See?</h2>
+                <p>Let's create something amazing together. Contact us to discuss your next media project.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-envelope"></i> Start Your Project
+                    </a>
+                    <a href="testimonials.html" class="btn btn-outline btn-large">
+                        <i class="fas fa-star"></i> See Client Reviews
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <div class="lightbox-body">
+                <div class="lightbox-image">
+                    <div class="image-placeholder lightbox-img">
+                        <i class="fas fa-image"></i>
+                        <span>Project Image</span>
+                    </div>
+                </div>
+                <div class="lightbox-info">
+                    <h3 id="lightbox-title">Project Title</h3>
+                    <p id="lightbox-category">Category</p>
+                    <p id="lightbox-desc">Project description will appear here.</p>
+                    <div class="lightbox-details">
+                        <div class="detail">
+                            <strong>Client:</strong> <span id="lightbox-client">Client Name</span>
+                        </div>
+                        <div class="detail">
+                            <strong>Year:</strong> <span id="lightbox-year">2024</span>
+                        </div>
+                        <div class="detail">
+                            <strong>Services:</strong> <span id="lightbox-services">Video Production</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="main-footer">
+        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">GOODADDY GROUP</div>
+                    <p class="footer-tagline">The Best Media House, Advertisement and Marketing Company in Rwanda</p>
+                    
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 15 KN 5 Rd, Kigali, Rwanda</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+250782328126">+250 782 328 126</a></p>
+                        <p><i class="fas fa-clock"></i> Open 24 Hours</p>
+                        <p><i class="fas fa-wheelchair"></i> Fully wheelchair accessible</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#videography">Videography & Production</a></li>
+                        <li><a href="services.html#audiography">Audio Production</a></li>
+                        <li><a href="services.html#advertising">Advertising & Marketing</a></li>
+                        <li><a href="services.html#events">Events Management</a></li>
+                        <li><a href="services.html#branding">Brand Promotion</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="testimonials.html">Client Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html#booking">Book Appointment</a></li>
+                </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year"></span> GOODADDY GROUP. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+        // Portfolio Filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            const loadMoreBtn = document.getElementById('load-more');
+            let visibleItems = 8;
+            
+            // Filter functionality
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Show/hide items
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category').includes(filter)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Load more functionality
+            if (loadMoreBtn) {
+                // Initially hide items beyond first 8
+                portfolioItems.forEach((item, index) => {
+                    if (index >= visibleItems) {
+                        item.style.display = 'none';
+                    }
+                });
+                
+                loadMoreBtn.addEventListener('click', function() {
+                    // Show next 4 items
+                    const hiddenItems = Array.from(portfolioItems).filter(item => 
+                        item.style.display === 'none'
+                    );
+                    
+                    for (let i = 0; i < 4 && i < hiddenItems.length; i++) {
+                        hiddenItems[i].style.display = 'block';
+                    }
+                    
+                    // Hide button if no more items
+                    const remainingHidden = Array.from(portfolioItems).filter(item => 
+                        item.style.display === 'none'
+                    ).length;
+                    
+                    if (remainingHidden === 0) {
+                        loadMoreBtn.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
